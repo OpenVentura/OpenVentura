@@ -21,12 +21,15 @@ X Account ---> @OpenVentura
 Game Downloads are Currently Secured through Itch.io Temporarilly.
 
 ---> https://openventura.itch.io/ (HOMEPAGE)
+
 I Will try to Get Steam Running eeventually.
 
 
 -----SUPPORT-----
+
 I will have a Patreon and a Coffee Soon.
 
 
 -----CONTACT-----
+
 I will Make a Contact Email Soon.
