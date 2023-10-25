@@ -4,7 +4,6 @@ import java.util.Random;
 public class Generator {
 
     public static void main(String[] args) {
-
         Random seedGenerator1 = new Random();
         int seed_1 = seedGenerator1.nextInt(2147483647);
         Random seedGenerator2 = new Random();
@@ -37,7 +36,7 @@ public class Generator {
         int rValue_7 = r7.nextInt(2147483647);
         Random r8 = new Random(seed_4);
         int rValue_8 = r8.nextInt(2147483647);
-        Random BaseValue = new Random();
+        Random BaseValue = new Random(8);
         int Value = BaseValue.nextInt(2147483647);
         int MultiplierValue = 0;
         int Min_MultiplierValue = rValue_1;
@@ -47,7 +46,7 @@ public class Generator {
             MultiplierValue = (int) (Math.random() * Range_MultiplierValue) + Min_MultiplierValue;
         }
         int DividerValue = 1;
-        int Min_DividerValue = rValue_3;
+        int Min_DividerValue = 1;
         int Max_DividerValue = rValue_4;
         int Range_DividerValue = Min_DividerValue - Max_DividerValue + 1;
         for (int i = 0; i < 10; i++) {
@@ -67,10 +66,16 @@ public class Generator {
         for (int i = 0; i < 10; i++) {
             AdditionValue = (int) (Math.random() * Range_AdditionValue) + Min_AdditionValue;
         }
+        if(DividerValue == 0) {
+            DividerValue = 255;
+        }
+        if(Value == 0) {
+            Value = 255;
+        }
         int ValueMul = 0;
         int ValueSub = 0;
         int ValueAdd = 0;
-        int ValueDiv = 2;
+        int ValueDiv = 0;
         if(Mul == 1) {
             ValueMul = Value * MultiplierValue;
         }
@@ -84,6 +89,10 @@ public class Generator {
             ValueAdd = Value + AdditionValue;
         }
         int FinalValue;
+
+        if(ValueDiv == 0) {
+            ValueDiv = 255;
+        }
         FinalValue = Value * ValueMul / ValueDiv - ValueSub + ValueAdd;
         System.out.println(FinalValue);
     }
