@@ -1,13 +1,14 @@
 Hei,
 Im OpenVentura (sometimes refered to as nGen One)
-Im an Indie Developer, Forever By Myself.
-I Code my games in C#, Because of Unity, But I Primarilly do Java 
+I'm an Indie Developer, Forever Coding By Myself.
+I Code my games in C#, (Because of Unity).
+But all of my Scratch Programs are Mostly in Java
 
 
 -----IDE-----
 
 for Kotlin & Java: IntelliJ Idea Community
-for The C Languages: Visual Studio (I will get JetBrains RIDER Eventually)
+for C# / C++: Visual Studio (I will get JetBrains RIDER Eventually)
 for Everything else: Visual Studio Code
 
 
@@ -22,7 +23,7 @@ Game Downloads are Currently Secured through Itch.io Temporarilly.
 
 ---> https://openventura.itch.io/ (HOMEPAGE)
 
-I Will try to Get Steam Running eeventually.
+I Will try to Get Steam Running eventually.
 
 
 -----SUPPORT-----
