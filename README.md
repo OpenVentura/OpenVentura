@@ -33,4 +33,5 @@ I will have a Patreon and a Coffee Soon.
 
 -----CONTACT-----
 
+Contact Number ---> +1 (650) 540-0050
 I will Make a Contact Email Soon.
