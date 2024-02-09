@@ -1,6 +1,5 @@
-Jeg er Ventura
-Currently Building my own code language.
- Twitta ---> @OpenVentura
+the 'Open' in my name resembles the Open-Source Community.
 
-random:
-Itch.IO ---> https://openventura.itch.io/ (HOMEPAGE);
+i use VS and IntelliJ for my things.
+
+website comming soon
